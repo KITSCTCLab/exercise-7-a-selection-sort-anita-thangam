@@ -5,9 +5,9 @@ def selectionSort(array, size) -> List[int]:
     t= array[i]
     j=i+1
     while j<=0 and t>array[j]:
-      array[j-1]=array[j]
-      j+=1
-     array[j-1] = t
+      array[i-1]=array[i]
+      i+=1
+     array[i-1] = t
    return array
     
     
