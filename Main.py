@@ -3,10 +3,10 @@ from typing import List
 def selectionSort(array, size) -> List[int]:
   for i in range(1,len(array)):
     t= array[i]
-    j=i+1
+    j=i-1
     while j<=0 and t>array[j]:
       array[i-1]=array[i]
-      i+=1
+      i-=1
      array[i-1] = t
    return array
     
