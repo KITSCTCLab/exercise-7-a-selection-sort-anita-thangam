@@ -7,7 +7,7 @@ def selectionSort(array, size) -> List[int]:
     while j<=0 and t>array[j]:
       array[j-1]=array[j]
       j+=1
-     array[j-1]=t
+     array[j-1] = t
    return array
     
     
